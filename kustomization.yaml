@@ -4,6 +4,6 @@ kind: Kustomization
 namespace: semaphoreui
 resources:
 #  - namespace.yaml
-  - pvc.yaml
+#  - pvc.yaml
   - configmap.yaml
   - deployment.yaml
